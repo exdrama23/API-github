@@ -1,0 +1,118 @@
+/* Estilo global para o modo escuro */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('./assets/pexels-slendyalex-3745234.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden; /* Evita rolagem se o conteúdo ultrapassar a altura da viewport */
+}
+
+/* Estiliza o contêiner geral que ocupa toda a tela */
+.container-geral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Estiliza o contêiner principal */
+.container {
+  background-color: rgba(30, 30, 30, 0.9); /* Fundo do container com leve transparência */
+  border-radius: 12px; /* Borda mais arredondada */
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Sombra mais suave */
+}
+
+/* Estiliza o cabeçalho superior */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8em; /* Aumenta o tamanho da fonte */
+  color: #e0e0e0;
+}
+
+/* Estiliza o elemento <main> */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Estiliza o formulário */
+.form {
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Estiliza o título dentro do formulário */
+.form h1 {
+  font-size: 2em; /* Aumenta o tamanho da fonte */
+  color: #e0e0e0; /* Cor do texto */
+  margin-bottom: 15px; /* Espaçamento abaixo do título */
+}
+
+/* Estiliza o campo de entrada do formulário */
+.form input {
+  padding: 12px; /* Aumenta o padding */
+  border: 1px solid #444; /* Ajusta a cor da borda */
+  border-radius: 6px; /* Borda mais arredondada */
+  background-color: #333;
+  color: #e0e0e0;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 15px; /* Aumenta o espaço abaixo do campo */
+}
+
+/* Estiliza o botão dentro do formulário */
+.form button {
+  padding: 12px 24px; /* Aumenta o padding do botão */
+  border: none;
+  border-radius: 6px; /* Borda mais arredondada */
+  background-color: #6200ea; /* Cor do botão */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.form button:hover {
+  background-color: #3700b3; /* Cor do botão ao passar o mouse */
+}
+
+/* Estiliza o contêiner de conteúdo */
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Estiliza a imagem dentro do contêiner de conteúdo */
+.conteudo img {
+  width: 180px; /* Aumenta a largura da imagem */
+  height: 180px; /* Aumenta a altura da imagem */
+  border-radius: 50%;
+  margin-bottom: 20px; /* Aumenta o espaço abaixo da imagem */
+}
+
+/* Estiliza o título dentro do contêiner de conteúdo */
+.conteudo h1 {
+  margin: 15px 0; /* Ajusta o espaço ao redor do título */
+  font-size: 2em; /* Aumenta o tamanho da fonte */
+}
+
+/* Estiliza o parágrafo dentro do contêiner de conteúdo */
+.conteudo p {
+  color: #b0b0b0; /* Texto de biografia */
+  font-size: 1.1em; /* Ajusta o tamanho da fonte */
+}
