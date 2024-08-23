@@ -29,13 +29,13 @@ function App() {
    
     <div className="container">
    
-      <header>Projeto EMIDES2AM
+      <header>
       </header>
         <main>
           <div className="form">
-            <h1>Consumindo API do Github</h1>
+            <h1>𝙲𝚘𝚗𝚜𝚞𝚖𝚒𝚗𝚍𝚘 𝙰𝙿𝙸 𝚍𝚘 𝙶𝚒𝚝𝚑𝚞𝚋</h1>
             <input type="text" placeholder="Digite o usuario" onChange={(e) =>setUsername(e.target.value)}/>
-            <button onClick={handlePesquisa}>Consultar</button>
+            <button onClick={handlePesquisa}>𝓒𝓸𝓷𝓼𝓾𝓵𝓽𝓪𝓻</button>
           </div>
           <div className="conteudo">
             <div>
